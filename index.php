@@ -15,7 +15,7 @@ $result = cube($number);
     <title>PHP partie4 exo2</title>
   </head>
   <body>
-    <p>Le résultat au cube de <?php echo $number; ?> est égal à <?php echo $result; ?></p> 
-    <p><?php echo $number . ' x ' . $number . ' x ' . $number . ' = ' . $result; ?></p>
+    <p>Le résultat au cube de <?php echo $number; ?> est égal à <?php echo $result; ?></p>
+    <p><?php echo $number; ?> x <?php echo $number; ?> x <?php echo $number; ?> = <?php echo $result; ?></p>
   </body>
 </html>
